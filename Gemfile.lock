@@ -153,6 +153,9 @@ GEM
     rake (13.1.0)
     reline (0.4.0)
       io-console (~> 0.5)
+    simple_form (5.3.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -191,6 +194,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
+  simple_form
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
